@@ -13,6 +13,7 @@
 + (UIImage *)imageWithColor:(UIColor *)color;
 
 - (UIImage *)imageWithColor:(UIColor *)color;
++ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
 
 // 灰色图像
 - (UIImage *)grayImage;
