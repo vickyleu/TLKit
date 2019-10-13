@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
                    DESC
   
   s.author       = { "libokun" => "libokun@126.com" }
-  s.homepage     = "https://github.com/tbl00c/TLKit"
+  s.homepage     = "https://github.com/vickyleu/TLKit"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.source       = { :git => "https://github.com/tbl00c/TLKit.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/vickyleu/TLKit", :tag => s.version }
 
   s.public_header_files = "TLKit/TLKit.h"
   s.source_files = "TLKit/TLKit.h"
