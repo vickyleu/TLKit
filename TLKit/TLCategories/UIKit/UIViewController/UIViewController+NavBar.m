@@ -44,7 +44,7 @@
 - (UIBarButtonItem *)addRightBarButtonWithImage:(UIImage *)image actionBlick:(TLBarButtonActionBlock)actionBlock
 {
     UIBarButtonItem *barButton = [[UIBarButtonItem alloc] initWithImage:image style:UIBarButtonItemStylePlain actionBlick:actionBlock];
-    [self.navigationItem setRightBarButtonItem:barButton];
+    [self.navigationItem setRightBarButtonItems:@[barButton]];
     return barButton;
 }
 
